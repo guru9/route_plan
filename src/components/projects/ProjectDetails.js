@@ -1,12 +1,12 @@
 import React from 'react'
 
 const ProjectDetails = (props) => {
-    const id = props.match.params.id
+    const projectId = props.match.params.id
     return (
-        <div className="container section project-details">
-            <div className="card z-depth-0">
+        <div className="container section">
+            <div className="card z-depth-2">
                 <div className="card-content">
-                    <span className="card-title">Project Title - {id}</span>
+                    <span className="card-title">Project Title - {projectId} </span>
                     <p>Helllo, how r u!!!</p>
                 </div>
                 <div className="card-action gret lighten-4 grey-text">
